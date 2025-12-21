@@ -1,0 +1,1 @@
+pyinstaller --name "VaccineAnalyzerV4.8.4" --windowed --icon="vaccine.ico" --add-data "live_worker;live_worker" --add-data "config.txt;." --hidden-import=pyautogui main_pyside.py --exclude-module PyQt5 --exclude-module PyQt6
